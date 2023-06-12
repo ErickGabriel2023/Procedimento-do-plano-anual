@@ -1,0 +1,134 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(225, 100%, 94%);
+}
+
+
+
+main {
+    background-color: #fff;
+    max-width: 326.5px;
+    height: 568px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0px 19px 40px 0px hsla(225, 100%, 90%, 0.958);
+}
+
+main .imagem_ilustracao {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.informacao_geral {
+    margin: 25px;
+    text-align: center;
+}
+
+.informacao_geral h1 {
+    color: hsl(223, 40%, 23%);
+    font-size: 22px;
+    font-weight: 900;
+    padding-top: 3px;
+    margin-bottom: 20px;
+}
+
+.informacao_geral .text_descritivo {
+    color: hsl(224, 23%, 55%);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.icone {
+    animation: float 3s ease-in-out infinite;
+}
+
+.container_plano {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 5px;
+    margin: 25px 0 25px 0;
+    border-radius: 10px;
+}
+
+.container_plano .plano_valor {
+    padding-right: 25px;
+    font-size: 15px;
+}
+
+.plano_valor .plano_anual {
+    color: hsl(223, 40%, 23%);
+    font-weight: 900;
+}
+
+.plano_valor .valor {
+    color: hsl(224, 23%, 55%);
+    margin-top: 4px;
+}
+
+.container_plano .text_change {
+    color: hsl(245, 68%, 52%);
+    font-size: 13px;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.text_change:hover {
+    color: hsl(245, 69%, 63%);
+}
+
+.informacao_geral button {
+    background-color: hsl(245, 75%, 52%);
+    padding: 17px 66px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 25px 10px 0px hsla(245, 75%, 52%, 0.12);
+}
+
+button{
+    color: hsl(225, 100%, 98%);
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(245, 69%, 63%);
+}
+
+.informacao_geral .cancelar_pedido {
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.cancelar_pedido:hover {
+    color: hsl(224, 18%, 37%);
+}
+
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(5px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+
